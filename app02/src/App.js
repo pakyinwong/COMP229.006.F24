@@ -8,7 +8,7 @@ function App({items}) {
     items.map((ingredient, i)=>
       React.createElement("li",{key: i},ingredient)
     )
-  )
+  );
 }
 
 export default App;

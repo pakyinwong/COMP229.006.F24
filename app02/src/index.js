@@ -13,9 +13,16 @@ const items = [
   "1 teaspoon kosher salt", 
   "4 cloves of chopped garlic"
   ];
+
+  const products = [
+    "car",
+    "sugar",
+    "salt"
+  ];
 root.render(
   <React.StrictMode>
     <App items={items} />
+    <App items={products} />
   </React.StrictMode>
 );
 
