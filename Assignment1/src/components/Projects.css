@@ -1,0 +1,37 @@
+#home {
+  height: 100%; /* Ensures body takes full height */
+}
+
+.container {
+  display: flex;
+  background-color: rgb(60,60,60);
+  border-radius: 30px;
+  margin: 20px;
+  max-width: 800px;
+}
+.about {
+  flex: 1;
+  padding: 5px 20px;
+}
+
+.homePara{
+  font-size: medium;;
+  font-weight: 250;
+}
+
+li{
+  font-size: medium;;
+  font-weight: 250;
+}
+.image {
+  flex: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+.image img {
+  max-width: 300px;
+  border-radius: 30px;
+}
+
