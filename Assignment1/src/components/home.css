@@ -1,0 +1,58 @@
+#home {
+  height: calc(100vh - 5rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 55vh;
+  padding: 10px;
+}
+
+.homeContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.homeName {
+  color: yellow;
+}
+
+.homePara {
+  font-size: medium;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding-top: 1rem;
+}
+
+.meBtn{
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  border: none;
+  width:11rem;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+

@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  background-color: rgb(60,60,60);
+  border-radius: 30px;
+  padding: 20px;
+  max-width: 800px;
+}
+.about {
+  flex: 1;
+  padding: 5px 20px;
+}
+
+
+.homePara{
+  font-size: medium;;
+  font-weight: 250;
+}
+
+li{
+  font-size: medium;;
+  font-weight: 250;
+}
+.image {
+  flex: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  max-width: 250px;
+  margin: 20px;
+}
+.image img {
+  max-width: 250px;
+  border-radius: 30px;
+}
+.resume{
+  font-size: medium;
+  font-weight: 250;
+}
+
