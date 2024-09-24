@@ -56,3 +56,14 @@
   color: black;
 }
 
+@media screen and (max-width: 576px) {
+  .bg {
+    position: flex;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    
+    height: 25vh;
+    padding: 10px;
+  }
+}
