@@ -53,10 +53,13 @@
 }
 
 .submission {
-  background: white;
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
   border: none;
-  border-radius: 0.7rem;
-  margin: 2rem;
-  padding: 0.75rem, 3.5rem;
-  min-width: 80px;
+  width:5rem;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
 }
+
