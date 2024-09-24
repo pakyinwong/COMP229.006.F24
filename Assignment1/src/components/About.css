@@ -1,3 +1,9 @@
+/* 
+File Name: About.css
+Student's Name: Pak Yin Wong
+Student ID: 301359647
+Date: 24-Sep-2024
+*/
 .container {
   display: flex;
   background-color: rgb(60,60,60);
@@ -9,7 +15,6 @@
   flex: 1;
   padding: 5px 20px;
 }
-
 
 .homePara{
   font-size: medium;;

@@ -1,3 +1,8 @@
+// File Name: About.js
+// Student's Name: Pak Yin Wong
+// Student ID: 301359647
+// Date: 24-Sep-2024
+
 import React from 'react';
 import photo from '../assets/me.jpg';
 import './About.css';

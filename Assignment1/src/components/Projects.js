@@ -1,9 +1,13 @@
+// File Name: Projects.js
+// Student's Name: Pak Yin Wong
+// Student ID: 301359647
+// Date: 24-Sep-2024
+
 import React from 'react';
 import rock from '../assets/game.png'
 import spa from '../assets/spa.png'
 import db from '../assets/db.jpeg'
 import './Projects.css';
-
 
 const Projects = () => {
     return (

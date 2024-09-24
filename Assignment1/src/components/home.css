@@ -1,3 +1,9 @@
+/* 
+File Name: Home.css
+Student's Name: Pak Yin Wong
+Student ID: 301359647
+Date: 24-Sep-2024
+*/
 #home {
   height: calc(100vh - 5rem);
   width: 100vw;
@@ -58,7 +64,6 @@
 
 @media screen and (max-width: 576px) {
   .bg {
-    position: flex;
     top: 0;
     right: 0;
     z-index: -1;

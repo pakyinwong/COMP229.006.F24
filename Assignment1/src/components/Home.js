@@ -1,8 +1,14 @@
+// File Name: Home.js
+// Student's Name: Pak Yin Wong
+// Student ID: 301359647
+// Date: 24-Sep-2024
+
 import React from 'react';
 import './home.css';
 import bg from '../assets/photo.png';
 import { NavLink } from "react-router-dom";
 
+//Render the home page
 const Home = () => {
   return (
     <section id='home'>

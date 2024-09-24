@@ -1,3 +1,8 @@
+// File Name: Header.js
+// Student's Name: Pak Yin Wong
+// Student ID: 301359647
+// Date: 24-Sep-2024
+
 import { Outlet, NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png"
 import './Header.css';

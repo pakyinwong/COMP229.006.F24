@@ -1,3 +1,9 @@
+/* 
+File Name: Services.css
+Student's Name: Pak Yin Wong
+Student ID: 301359647
+Date: 24-Sep-2024
+*/
 #skills {
   overflow: hidden;
   width: 100vw;
@@ -34,8 +40,10 @@
 .skillImg {
   height: 6rem;
   width: 10rem;
-  margin-right: 3rem;
-  padding: 10px;
+  margin: 1rem;
+
+  padding: 5px 10px;
+  
 }
 .skillText {
   margin: 10px;
@@ -49,14 +57,13 @@
 } 
 
 @media screen and (max-width: 576px) {
-  .bars {
-    flex-direction: column; 
-}
+  
   .skillImg {
     order: -1;
     justify-content: center;
     align-items: center;
     margin: auto;
     height: 8vh;
+    width: 15vw;
   }
 }
