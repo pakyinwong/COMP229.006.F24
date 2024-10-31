@@ -4,8 +4,8 @@
  * Module dependencies.
  */
 
-var db = ;
 var app = require('./config/express');
+var db = require('./config/db');
 var debug = require('debug')('comp229backend:server');
 var http = require('http');
 
@@ -20,7 +20,7 @@ app.set('port', port);
  * Create HTTP server.
  */
 
-db();
+var startDB = db();
 var server = http.createServer(app);
 
 /**
@@ -89,6 +89,4 @@ function onListening() {
     ? 'pipe ' + addr
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
-
-  console.log('==== The app is running on http://localhost:' + port );
 }
