@@ -3,11 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'HK Express' });
-});
-
-router.get('/yin', function(req, res, next) {
-  res.send('Hi in index');
+  res.render('index', { title: 'Portfolio Backend API' });
 });
 
 module.exports = router;
